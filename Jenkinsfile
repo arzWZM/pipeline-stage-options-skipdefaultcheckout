@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         stage('Build') {
-			agent 
+			agent any
 			options { 
 				skipDefaultCheckout() 
 			}
